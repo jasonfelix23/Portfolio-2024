@@ -36,10 +36,10 @@ Here are a few technologies I&apos;ve been working with recently:
           </ul>
             </div>
             <div className='about-grid-photo'>
-                <div className="overlay"></div>
-                <div className="overlay-border"></div>
+                {/* <div className="overlay"></div> */}
+                {/* <div className="overlay-border"></div> */}
                 <div className="about-grid-photo-container">
-                    <Image src='/jason.png' alt='profile' fill/>
+                    <Image src='/skills_graph.png' alt='profile' fill/>
                 </div>
             </div>
         </div>

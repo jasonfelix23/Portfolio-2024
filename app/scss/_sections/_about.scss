@@ -107,7 +107,7 @@
                 object-fit: cover;
                 img{
                     z-index: 0;
-                    filter: grayscale(100%);
+                    filter: grayscale(10%);
                     transition: 0.3s ease-in-out;
                     border-radius: 0.8rem;
                 }

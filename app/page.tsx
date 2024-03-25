@@ -4,6 +4,7 @@ import SocialIcons from "./_components/SocialIcons";
 import Email from "./_components/Email";
 import Hero from "./_sections/Hero";
 import About from "./_sections/About";
+import Experience from "./_sections/Experience";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <Experience />
       </main>
     </div>
   );

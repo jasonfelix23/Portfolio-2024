@@ -1,0 +1,37 @@
+body{
+    background-color: var(--blue-dark);
+    counter-reset: title;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: var(--pink-dark);
+    &:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 0.5px;
+        bottom:0;
+        right:0;
+        background-color: var(--pink-dark);
+        transform-origin: bottom left;
+        transition: transform 0.25s ease-out;
+    }
+    &:hover, &:focus{
+        &::after{
+            transform: scaleX(1);
+            transform-origin: bottom right;
+        }
+    }
+    &:focus{
+        outline:none;
+    }
+}

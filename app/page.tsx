@@ -5,6 +5,8 @@ import Email from "./_components/Email";
 import Hero from "./_sections/Hero";
 import About from "./_sections/About";
 import Experience from "./_sections/Experience";
+import Projects from "./_sections/Projects";
+import Contact from "./_sections/Contact";
 
 
 export default function Home() {
@@ -17,6 +19,8 @@ export default function Home() {
         <Hero />
         <About />
         <Experience />
+        <Projects />
+        <Contact />
       </main>
     </div>
   );

@@ -38,3 +38,14 @@ body,html{
         outline:none;
     }
 }
+::-webkit-scrollbar{
+    width: 12px;
+    &-track{
+        background-color: var(--blue-dark);
+    }
+    &-thumb{
+        background-color: var(--blue-dark-medium);
+        border: 3px solid var(--blue-dark-medium);
+        border-radius: 10px;
+    }
+}
